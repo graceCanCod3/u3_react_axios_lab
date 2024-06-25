@@ -3,14 +3,14 @@
 
 function Home () {
     return(
-        <>
-         <div>
+    
+    <div className="home">
 
-      <h2>Welcome to our  Page</h2>
-      <p>The Force be with you!</p>
+      
+      <h2>May The Force Be With You!</h2>
 
     </div>
-        </>
+
     )
 
 }

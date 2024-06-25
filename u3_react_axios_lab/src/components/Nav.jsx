@@ -1,15 +1,18 @@
-
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
-    console.log(Link)
+  
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/StarshipList">Starships</Link></li>
-      </ul>
-    </nav>
+    <div className="nav">
+     
+        <Link to="/">Home</Link>
+        <Link to="/starships">Starship-List</Link>
+        <Link to="/films">Film List</Link> 
+        <Link to="/people">People</Link> 
+        <Link to="/planet">Planet</Link> 
+
+    
+    </div>
   );
 };
 
